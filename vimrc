@@ -1,3 +1,7 @@
+" pathogen to install plugins easily
+call pathogen#infect()
+call pathogen#helptags()
+
 set nocompatible "Not vi compativle
 
 """"""""""""""""""""""""""""""""""
@@ -26,3 +30,6 @@ set lbr " linebreak
 set expandtab
 set shiftwidth=2
 set softtabstop=2
+
+
+
