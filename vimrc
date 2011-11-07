@@ -10,7 +10,7 @@ set nocompatible "Not vi compativle
 syntax on " Turn on syntax highligthing
 set showmatch  "Show matching bracets when text indicator is over them
 
-colorscheme cobalt 
+colorscheme slate 
 
 " Switch on filetype detection and loads 
 " indent file (indent.vim) for specific file types
@@ -31,5 +31,7 @@ set expandtab
 set shiftwidth=2
 set softtabstop=2
 
+" Give a shortcut key to NERD Tree
+map <F2> :NERDTreeToggle<CR>
 
 
