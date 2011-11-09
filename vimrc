@@ -35,4 +35,6 @@ set softtabstop=2
 " Give a shortcut key to NERD Tree
 map <F2> :NERDTreeToggle<CR>
 
-
+" Command-/ to toggle comments
+map <D-/> <plug>NERDCommenterToggle<CR>
+imap <D-/> <Esc><plug>NERDCommenterToggle<CR>i
