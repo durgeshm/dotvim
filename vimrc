@@ -23,6 +23,7 @@ set si " Smart indent
 " Some other confy settings
 """"""""""""""""""""""""""""""""""
 set number " Number lines
+set ruler  " show current row/column info
 set hls " highlight search
 set lbr " linebreak
 
