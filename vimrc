@@ -10,7 +10,8 @@ set nocompatible "Not vi compativle
 syntax on " Turn on syntax highligthing
 set showmatch  "Show matching bracets when text indicator is over them
 
-colorscheme slate 
+colorscheme wombat256 
+set cursorline    " highlight current line
 
 " Switch on filetype detection and loads 
 " indent file (indent.vim) for specific file types
