@@ -39,3 +39,7 @@ map <F2> :NERDTreeToggle<CR>
 " Command-/ to toggle comments
 map <D-/> <plug>NERDCommenterToggle<CR>
 imap <D-/> <Esc><plug>NERDCommenterToggle<CR>i
+
+" shortcut for taglist
+map <F4> :TlistToggle<CR>
+
