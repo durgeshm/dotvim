@@ -43,3 +43,4 @@ imap <D-/> <Esc><plug>NERDCommenterToggle<CR>i
 " shortcut for taglist
 map <F4> :TlistToggle<CR>
 
+set wildignore+=*.class,project/target/**,target/**
